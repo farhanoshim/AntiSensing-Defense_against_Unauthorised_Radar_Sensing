@@ -3,4 +3,23 @@ Anti-Sensing: Defense against Unauthorized Radar-based Human Vital Sign Sensing 
 
 ## Abstract
 
-Recent advancements in Ultra-Wideband (UWB) radar technology have enabled sensing applications such as contactless non-line-of-sight vital sign monitoring. However, it has also raised significant privacy concerns due to the potential for unauthorized surveillance. UWB radar can capture sensitive physiological data, even through walls, in both public and private spaces. In this paper, we present Anti-Sensing, a novel defense mechanism designed to prevent unauthorized radar-based sensing. Our approach uses physically realizable perturbations, such as oscillatory motion from wearable devices, to disrupt radar sensing systems. These oscillations mimic natural cardiac motion, misleading systems that monitor heart rate (HR) and resulting in inaccurate estimations. We design a gradient-based algorithm to optimize the frequency and spatial amplitude of these oscillations for maximal disruption while remaining physiologically realistic. We validate Anti-Sensing through simulations and real-world tests on radar data and neural network-based heart rate sensing models, demonstrating its effectiveness in degrading their accuracy and providing a practical solution for safeguarding privacy.
+Recent advancements in Ultra-Wideband (UWB)
+radar technology have enabled contactless, non-line-of-sight
+vital sign monitoring, making it a valuable tool for healthcare.
+However, UWB radar’s ability to capture sensitive physiological
+data, even through walls, raises significant privacy concerns,
+particularly in human-robot interactions and autonomous systems
+that rely on radar for sensing human presence and physiological
+functions. In this paper, we present Anti-Sensing, a novel
+defense mechanism designed to prevent unauthorized radarbased
+sensing. Our approach introduces physically realizable
+perturbations, such as oscillatory motion from wearable devices,
+to disrupt radar sensing by mimicking natural cardiac motion,
+thereby misleading heart rate (HR) estimations. We develop a
+gradient-based algorithm to optimize the frequency and spatial
+amplitude of these oscillations for maximal disruption while ensuring
+physiological plausibility. Through both simulations and
+real-world experiments with radar data and neural networkbased
+HR sensing models, we demonstrate the effectiveness of
+Anti-Sensing in significantly degrading model accuracy, offering
+a practical solution for privacy preservation.
